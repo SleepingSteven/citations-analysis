@@ -11,4 +11,4 @@ def countpublishers (list):
           results[str(element)]=float(percentage)
 
      print(sorted(results.items(), key=lambda x: x[1]))
-     return((sorted(results.items(), key=lambda x: x[1])))
+     return(sorted(results.items(), key=lambda x: x[1]))
